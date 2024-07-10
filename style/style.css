@@ -1,0 +1,85 @@
+
+/* ========= common css ============ */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0px auto;
+}
+
+.btn-primary {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #000;
+    border: 2px solid #333;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.btn-outline {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+    background-color: transparent;
+    border: 2px solid #333;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btn-outline:hover {
+    color: white;
+    background-color: #333;
+}
+
+/* ========== navbar css =============== */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 20px;
+    /* background-color: #f0eeee; */
+}
+
+
+/* banner design */
+.banner-container {
+    /* height: 100vh; */
+    width: 100%;
+    background-image: url('../assets/Hero-bg.png');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.banner-content {
+    padding: 30px;
+    text-align: center;
+}
+.banner-content img {
+    width: 180px;
+    height: 180px;
+}
+.banner-content h1 {
+    font-size: 48px;
+    width: 60%;
+    margin: 0 auto;
+    font-weight: 700;
+}
+.banner-content p {
+    font-size: 16px;
+    width: 60%;
+    margin: 40px auto;
+    font-weight: 500;
+}
