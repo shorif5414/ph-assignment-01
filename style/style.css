@@ -174,6 +174,63 @@ line-height: 26px;
     line-height: 19px;
 }
 
+/* cta banner section */
+
+.cta-banner{
+    width: 100%;
+    background-image: url('../assets//handshake.jpg');
+    background-size: cover;
+    background-position: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+    color: #fff;
+    padding: 24px;
+    background-color: #0000009d;
+    margin-bottom: 60px;
+}
+.cta-banner h1{
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 36px;
+}
+.cta-banner p{
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.input-filed-container{
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+    max-width: 800px;
+    margin: 20px auto;
+
+}
+.input-filed-container input{
+    box-sizing: border-box;
+border-radius: 8px;
+background: rgb(255, 255, 255);
+padding: 16px;
+width: 100%;
+}
+.input-filed-container button{
+    box-sizing: border-box;
+border-radius: 8px;
+background: rgb(255, 255, 255);
+padding: 14px 36px;
+font-size: 20px;
+font-weight: 700;
+
+}
+
 /* footer desing */
 
 footer div {
